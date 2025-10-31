@@ -3,3 +3,43 @@ body {
     font-family: inter, sans-serif;
 }
 
+.navbar {
+    background-color: #040f0f;
+    border-bottom: 1px solid #eaeaea;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 1.5rem;
+}
+
+.navbar a:hover {
+    color: #ababab;
+}
+
+.navItems {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navItems {
+    display: flex;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 100px;
+}
